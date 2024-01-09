@@ -1,0 +1,21 @@
+{
+  "name": "html5-spritesheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "go": "npm run go-pixi",
+    "go-pixi": "npx ts-node src/index.ts ./input ./output -f pixi",
+    "go-playcanvas": "npx ts-node src/index.ts ./input ./output -f playcanvas",
+    "help": "npx ts-node src/index.ts -h",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sam Lynch",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "spritesmith": "^3.4.0",
+    "ts-node": "^10.8.1"
+  }
+}
